@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
       weather_item.classList.add('weather-item');
       weather_item.innerHTML = `
         <p>${date}</p>
-        <p>${weather_icon}</p>
+        <p class="weather_icons">${weather_icon}</p>
         <p>最高: ${max_temp}℃ / 最低: ${min_temp}℃</p>
       `;
       weather_list.appendChild(weather_item);
